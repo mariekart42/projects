@@ -5,7 +5,7 @@ function returns the Nth number (index) of the fibonacci sequence
 if negative input function returns '-1'
 */
 
-int ft_fibonacci(int index)
+int       ft_fibonacci(int index)
 {
      if (index < 0)
           return (-1);
@@ -15,9 +15,8 @@ int ft_fibonacci(int index)
      }
      else 
      {    
-          return (ft_fibonacci(index - 1) + ft_fibonacci(index - 2));
+          return (ft_fibonacci (index - 1) + ft_fibonacci(index - 2));
      }
-
 }
 /* 
 int main(void)
